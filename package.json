@@ -4,9 +4,7 @@
         "sass": "^1.69.5"
     },
     "devDependencies": {
-        "@types/react": "^18.2.41",
-        "webpack-cli": "^5.1.4",
-        "sass-loader": "^13.3.2"
+        "@types/react": "^18.2.41"
     },
     "name": "eqbr-component-library",
     "version": "1.0.0",
