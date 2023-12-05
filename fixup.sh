@@ -8,8 +8,8 @@ cat >dist/cjs/package.json <<!EOF
 }
 !EOF
 
-cat >dist/mjs/package.json <<!EOF
-{
-    "type": "module"
-}
-!EOF
+# cat >dist/mjs/package.json <<!EOF
+# {
+#     "type": "module"
+# }
+# !EOF
