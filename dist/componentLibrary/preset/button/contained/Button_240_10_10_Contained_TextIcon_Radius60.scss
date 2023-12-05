@@ -1,0 +1,17 @@
+@import "../../../styles/mixin.Button";
+
+.Button_240_10_10_Contained_TextIcon_Radius60 {
+    @include button-style(240px, 10px, 6px, none, none, 0px, none, 0px);
+
+    &:hover {
+        // @include button-style(240px, 10px, 6px, none, none, 0px, none, 0px);
+    }
+
+    &:active {
+        // @include button-style(240px, 10px, 6px, none, none, 0px, none, 0px);
+    }
+
+    &:focus-visible {
+        @include button-style(240px, 10px, 6px, none, 2px solid, 3px, none, 0px);
+    }
+}

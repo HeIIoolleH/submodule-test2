@@ -1,0 +1,9 @@
+@mixin setTextStyle ($fontWeight, $fontSize, $lineHeight, $letterSpacing, $fontColor, $fontStyle, $textDecoration) {
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    letter-spacing: $letterSpacing;
+    color: $fontColor;
+    font-style: $fontStyle;
+    text-decoration: $textDecoration;
+}

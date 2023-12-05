@@ -1,0 +1,5 @@
+@import "../../styles/mixin.Text";
+
+.Text-Test {
+    @include setTextStyle(500, 16px, 24px, 0, #000000, normal, none)
+}

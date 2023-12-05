@@ -1,0 +1,95 @@
+@mixin button-style ($width, $padding, $radius, $border, $outline, $outlineOffset, $shadow, $gap) {
+    width: $width;
+    padding: $padding;
+    border: $border;
+    border-radius: $radius;
+    outline: $outline;
+    outline-offset: $outlineOffset;
+    box-shadow: $shadow;
+
+    .button-content {
+        gap: $gap;
+    }
+
+    &.btn-type {
+        &_contained {
+            border: none;
+        }
+
+        &_ghost {
+            background-color: transparent;
+        }
+    }
+
+    &.btn-pattern {
+
+        &_icon-text,
+        &_text,
+        &_text-icon {
+            &.btn-width {
+                &_S {
+                    width: 120px;
+                }
+
+                &_M {
+                    width: 200px;
+                }
+
+                &_L {
+                    width: 240px;
+                }
+            }
+
+            &.btn-padding {
+                &_S {
+                    padding: 3px 10px;
+                }
+
+                &_M {
+                    padding: 5.5px 10px;
+                }
+
+                &_L {
+                    padding: 8px 10px;
+                }
+            }
+        }
+
+        &_icon {
+            &.btn-width {
+                &_S {
+                    width: 26px;
+                }
+
+                &_M {
+                    width: 32px;
+                }
+
+                &_L {
+                    width: 40px;
+                }
+            }
+
+            &.btn-padding {
+                &_S {
+                    padding: 3px;
+                }
+
+                &_M {
+                    padding: 5.5px;
+                }
+
+                &_L {
+                    padding: 8px;
+                }
+            }
+        }
+    }
+}
+
+@mixin setButtonColor ($bgColor, $borderColor, $onColor, $outlineColor) {
+    background-color: $bgColor;
+    border-color: $borderColor;
+    color: $onColor;
+    outline-color: $outlineColor;
+}

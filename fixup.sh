@@ -2,9 +2,9 @@
 
 # rm -rf dist/*/index.d.ts 
 
-cat >dist/cjs/package.json <<!EOF
+cat >dist/package.json <<!EOF
 {
-    "type": "commonjs"
+    "type": "commonjs"s
 }
 !EOF
 

@@ -1,0 +1,5 @@
+@mixin setIconColor ($strokeColor, $fillColor, $borderColor) {
+    stroke: $strokeColor;
+    fill: $fillColor;
+    color: $borderColor;
+}

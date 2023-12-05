@@ -7,18 +7,19 @@
         "declaration": true,
         "esModuleInterop": true,
         "inlineSourceMap": false,
+        "jsx": "preserve",
         "listEmittedFiles": false,
         "listFiles": false,
         "moduleResolution": "node",
         "noFallthroughCasesInSwitch": true,
         "pretty": true,
         "resolveJsonModule": true,
-        "rootDir": "src",
+        "rootDir": "componentLibrary",
         "skipLibCheck": true,
         "strict": true,
         "traceResolution": false
     },
     "compileOnSave": false,
     "exclude": ["node_modules", "dist"],
-    "include": ["src", "./declaration.d.ts"]
+    "include": ["src", "componentLibrary"]
 }
