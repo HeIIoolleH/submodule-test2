@@ -13,10 +13,10 @@
     "main": ".svgrrc.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "copy-scss": "find . -name '*.scss' | cpio -pdm ./dist",
-        "copy-scss-module": "find . -name '*.scss' | cpio -pdm ./dist && find . -name '*.scss' | cpio -pdm ./dist/cjs",
-        "build": "rm -fr dist/* && tsc -p tsconfig.json && ./fixup.sh && npm run copy-scss",
-        "build-module": "rm -fr dist/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./fixup.sh && npm run copy-scss-module"
+        "copy-scss": "find ./src -name '*.scss' | cpio -pdm ./dist && cp -r ./dist/src/ ./dist/ && rm -fr ./dist/src",
+        "build": "rm -fr dist/* && tsc -p tsconfig.json && npm run copy-scss",
+        "copy-scss-module": "find . -name '*.scss' | cpio -pdm ./dist",
+        "build-module": "rm -fr dist/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && npm run copy-scss-module"
     },
     "keywords": [],
     "author": "",

@@ -1,15 +1,15 @@
-# cp dist/mjs/index.d.ts dist 
+cp dist/mjs/index.d.ts dist 
 
-# rm -rf dist/*/index.d.ts 
+rm -rf dist/*/index.d.ts 
 
 cat >dist/package.json <<!EOF
 {
-    "type": "commonjs"s
+    "type": "commonjs"
 }
 !EOF
 
-# cat >dist/mjs/package.json <<!EOF
-# {
-#     "type": "module"
-# }
-# !EOF
+cat >dist/package.json <<!EOF
+{
+    "type": "module"
+}
+!EOF
