@@ -4,6 +4,11 @@
 /node_modules
 /src
 /componentLibrary
+.svgrrc.js
+declaration.d.ts
+tsconfig-base.json
+tsconfig-cjs.json
+tsconfig.json
 /.pnp
 .pnp.js
 
