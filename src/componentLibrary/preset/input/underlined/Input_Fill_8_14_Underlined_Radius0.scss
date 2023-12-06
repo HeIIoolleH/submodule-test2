@@ -1,0 +1,28 @@
+@import "../../../styles/mixin.Text";
+@import "../../../foundation/typography.scss";
+@import "../../../styles/mixin.Input";
+
+.Input_Fill_8_14_Underlined_Radius0 {
+    @include input-style(100%, 8px 14px, 0px, 1px solid, none, 0px, none);
+    @include text-style($Pretendard_16R_font-size, $Pretendard_16R_line-height, $Pretendard_16R_letter-spacing, $Pretendard_16R_font-weight, none, none);
+
+    &:hover {
+        @include input-style(100%, 8px 14px, 0px, 1px solid, none, 0px, none);
+    }
+
+    &:active {
+        @include input-style(100%, 8px 14px, 0px, 1.5px solid, none, 0px, none);
+    }
+
+    &:focus {
+        @include input-style(100%, 8px 14px, 0px, 1.5px solid, none, 0px, none);
+    }
+
+    &.valid {
+        @include input-style(100%, 8px 14px, 0px, 1.5px solid, none, 0px, none);
+    }
+
+    &.invalid {
+        @include input-style(100%, 8px 14px, 0px, 1.5px solid, none, 0px, none);
+    }
+}

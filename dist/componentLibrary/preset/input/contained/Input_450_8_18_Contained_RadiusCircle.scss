@@ -1,0 +1,30 @@
+@import "../../../styles/mixin.Text";
+@import "../../../foundation/typography.scss";
+@import "../../../styles/mixin.Text";
+@import "../../../foundation/typography.scss";
+@import "../../../styles/mixin.Input";
+
+.Input_450_8_18_Contained_RadiusCircle {
+    @include input-style(450px, 8px 18px, 1000px, none, none, 0px, none);
+    @include text-style($Pretendard_16R_font-size, $Pretendard_16R_line-height, $Pretendard_16R_letter-spacing, $Pretendard_16R_font-weight, none, none);
+
+    &:hover {
+        @include input-style(450px, 8px 18px, 1000px, none, none, 0px, none);
+    }
+
+    &:active {
+        @include input-style(450px, 8px 18px, 1000px, 1px solid, none, 0px, none);
+    }
+
+    &:focus {
+        @include input-style(450px, 8px 18px, 1000px, 1px solid, none, 0px, none);
+    }
+
+    &.valid {
+        @include input-style(450px, 8px 18px, 1000px, none, none, 0px, none);
+    }
+
+    &.invalid {
+        @include input-style(450px, 8px 18px, 1000px, none, none, 0px, none);
+    }
+}

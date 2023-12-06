@@ -1,5 +1,5 @@
 // Padding
-import { ButtonWidthOption } from "../../componentClass/types/Button.Class.type";
+import { ButtonRadiusOption, ButtonWidthOption } from "../../componentClass/types/Button.Class.type";
 export const ButtonPaddingPresetOption = {
     S: "S",
     M: "M",
@@ -12,6 +12,8 @@ export const ButtonWidthPresetOption = {
     L: "L",
     ...ButtonWidthOption,
 };
+// Radius
+export const ButtonRadiusPresetOption = ButtonRadiusOption;
 // Pattern
 export const ButtonPattern = {
     IconText: "icon-text",

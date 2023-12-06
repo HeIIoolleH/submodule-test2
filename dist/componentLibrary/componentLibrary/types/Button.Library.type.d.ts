@@ -1,3 +1,4 @@
+import { ButtonRadiusOptionType } from "../../componentClass/types/Button.Class.type";
 export declare const ButtonPaddingPresetOption: {
     S: string;
     M: string;
@@ -12,6 +13,10 @@ export declare const ButtonWidthPresetOption: {
     L: string;
 };
 export type ButtonWidthPresetOptionType = (typeof ButtonWidthPresetOption)[keyof typeof ButtonWidthPresetOption];
+export declare const ButtonRadiusPresetOption: {
+    Radius_Circle: string;
+};
+export type ButtonRadiusPresetOptionType = ButtonRadiusOptionType;
 export declare const ButtonPattern: {
     IconText: string;
     TextIcon: string;

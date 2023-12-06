@@ -1,0 +1,36 @@
+@import "./colors.scss";
+
+/** Radius
+* 시각적으로 편안한 인상을 주기 위히 대부분의 컴포넌트에 Radius를 사용합니다.
+* 적용되어 있는 Radius 값은 컴포넌트별로 특별한 정의가 없는 경우, EQBR Design System 범위에서 변경하여 사용할 수 있습니다.
+*/
+$radius_100: 3px;
+$radius_200: 5px;
+$radius_300: 7px;
+$radius_400: 12px;
+
+/** Border Width
+* 0.5px, 1px, 2px의 3가지 Border Width를 사용합니다.
+* Border 50 (0.5px)은 일부 브라우저, 디바이스에서 표시되지 않을 수 있어 작은 오브젝트에 한하여 사용해야하며, 사용 시 주의가 필요합니다.
+*/
+$border_50: 0.5px;
+$border_100: 1px;
+$border_200: 2px;
+
+/** Shadow
+* 옅은 회색 배경용 3가지, 흰색 배경용 3가지의 총 6가지 Shadow를 사용합니다.
+* 배경에 따른 쉐도우 값이 최적화되어 있어 배경에 맞춰 사용하는 것을 권장합니다.
+*/
+// On White
+$shadow_100_medium-in_white: 0px 0px 2px rgba(0, 0, 0, 0.07);
+$shadow_100_bold-in_white: 0px 1px 2px rgba(0, 0, 0, 0.07);
+$shadow_200-in_white: 0px 1px 6px rgba(0, 0, 0, 0.12);
+$shadow_300-in_white: 0px 1px 20px rgba(0, 0, 0, 0.07);
+
+
+
+// On Light Gray
+$shadow_100_medium-in_gray: 0px 0px 1px rgba(0, 0, 0, 0.05);
+$shadow_100_bold-in_gray: 0px 1px 1px rgba(0, 0, 0, 0.05);
+$shadow_200-in_gray: 0px 1px 4px rgba(0, 0, 0, 0.06);
+$shadow_300-in_gray: 0px 1px 15px rgba(0, 0, 0, 0.04);

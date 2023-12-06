@@ -3,7 +3,7 @@ import { InputRadiusOptionType, InputWidthOptionType } from "../types/Input.Clas
 import "../style/Input.Class.scss";
 export interface InputClassProps extends DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement> {
     inputRef?: RefObject<HTMLInputElement>;
-    isUseFocus: boolean;
+    isValid?: boolean;
     widthOption?: InputWidthOptionType;
     radiusOption?: InputRadiusOptionType;
 }

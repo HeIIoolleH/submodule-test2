@@ -1,0 +1,33 @@
+.EQBR_Button {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+
+    .button-content {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &.btn-width {
+        &_fit-content {
+            width: fit-content;
+        }
+
+        &_100percent {
+            width: 100%;
+        }
+    }
+
+    &.btn-radius {
+        &_radius_circle {
+            border-radius: 1000px;
+        }
+    }
+}

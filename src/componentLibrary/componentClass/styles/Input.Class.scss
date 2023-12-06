@@ -1,0 +1,19 @@
+.EQBR_input {
+    box-sizing: border-box;
+
+    &.input-width {
+        &_fit-content {
+            width: fit-content;
+        }
+
+        &_100percent {
+            width: 100%;
+        }
+    }
+
+    &.input-radius {
+        &_radius_circle {
+            border-radius: 1000px;
+        }
+    }
+}

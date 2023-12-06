@@ -1,0 +1,78 @@
+/** EQBR Main Color
+* EQBR에서 주요 색상으로 사용하는 컬fj로 EQBR Design System Color에서도 해당 컬러를 위주로 사용합니다.
+* EQBR Design System Color 컴포넌트의 기본 (Default) 컬러로 사용되고 있지만, 서비스 상황에 따라 다른 컬러로 변경하여 사용할 수 있습니다.
+*/
+$blue_50: #E3F3FF;
+$blue_100: #BBDFFF;
+$blue_200: #8CCCFF;
+$blue_300: #55B8FF;
+$blue_400: #21A7FF;
+$blue_500: #0097FF;
+$blue_600: #0487FF;
+$blue_700: #1D74FF;
+$blue_800: #2661EC;
+$blue_900: #2F3DCD;
+
+$white : #FFFFFF;
+$gray_50: #F5F5F6;
+$gray_100: #E9EAEB;
+$gray_200: #DEE0E2;
+$gray_300: #BEC5CB;
+$gray_400: #94A0A8;
+$gray_500: #78868E;
+$gray_600: #505B63;
+$gray_700: #41484D;
+$gray_800: #292D30;
+$gray_900: #1C1F21;
+$black: #000000;
+
+$coral_50: #FFEAEC;
+$coral_100: #FFCACC;
+$coral_200: #F7948D;
+$coral_300: #EE6961;
+$coral_400: #F64537;
+$coral_500: #FA310E;
+$coral_600: #EC2212;
+$coral_700: #DA120D;
+$coral_800: #CD0003;
+$coral_900: #BF0000;
+
+/** EQBR Sub Color
+* Sub Color는 UI 요소들의 기능 또는 정보 유형에 따라 의미를 강조하여 전달하는 등의 목적으로 보조적으로 상요하는 컬러입니다.
+* 사용되는 목적과 UI에 적용되는 상황에 따라 일관된 색상 사용은 인지 부하를 낮게 유지하고 통합된 사용자 경험을 제공합니다.
+*/
+// // Green - Positive
+// $green_50: #E3F3FF;
+// $green_100: #00FF7A;
+// $green_200: #00F461;
+// $green_300: #00E84F;
+$green_400: #00D33B;
+// $green_500: #00B32C;
+// $green_600: #009A2C;
+// $green_700: #00822C;
+// $green_800: #006A2C;
+// $green_900: #00522C;
+
+// // Yellow - Delay
+// $eqbr-yellow_50: #FFF79A;
+// $eqbr-yellow_100: #FFF17B;
+// $eqbr-yellow_200: #FFE55A;
+// $eqbr-yellow_300: #FFD93A;
+$yellow_400: #FFCE1C;
+$yellow_500: #FFC500;
+// $eqbr-yellow_600: #FFB800;
+// $eqbr-yellow_700: #FFA900;
+// $eqbr-yellow_800: #FF9A00;
+// $eqbr-yellow_900: #FF8B00;
+
+// Red - Warning
+// $eqbr-red_50: #FF73C8;
+// $eqbr-red_100: #FF5BA9;
+// $eqbr-red_200: #FF438A;
+// $eqbr-red_300: #FF2B6B;
+$red_400: #FF134C;
+$red_500: #FF002D;
+// $eqbr-red_600: #E60026;
+// $eqbr-red_700: #CC0020;
+// $eqbr-red_800: #B3001A;
+// $eqbr-red_900: #990013;

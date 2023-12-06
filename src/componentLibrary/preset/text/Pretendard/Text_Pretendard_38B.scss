@@ -1,0 +1,6 @@
+@import "../../../styles/mixin.Text";
+@import "../../../foundation/typography.scss";
+
+.Text_Pretendard_38B {
+    @include text-style($Pretendard_38B_font-size, $Pretendard_38B_line-height, $Pretendard_38B_letter-spacing, $Pretendard_38B_font-weight, none, none);
+}

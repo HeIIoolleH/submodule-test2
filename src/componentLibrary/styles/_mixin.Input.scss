@@ -1,0 +1,62 @@
+@mixin input-style ($width, $padding, $radius, $border, $outline, $outlineOffset, $shadow) {
+    width: $width;
+    padding: $padding;
+    border: $border;
+    border-radius: $radius;
+    outline: $outline;
+    outline-offset: $outlineOffset;
+    box-shadow: $shadow;
+
+    &.input-type {
+        &_contained {
+            border: none;
+        }
+
+        &_underlined {
+            border: none;
+            border-bottom: $border;
+        }
+    }
+
+    &.input-padding {
+        &_S {
+            padding: 12px 16px;
+        }
+
+        &_M {
+            padding: 8px 14px;
+        }
+
+        &_L {
+            padding: 5px 12px;
+        }
+    }
+
+    &.input-radius_radius_circle {
+        &.input-padding {
+            &_S {
+                padding: 12px 22px;
+            }
+
+            &_M {
+                padding: 8px 18px;
+            }
+
+            &_L {
+                padding: 5px 16px;
+            }
+        }
+    }
+
+}
+
+@mixin setInputColor ($bgColor, $borderColor, $onColor, $placeholderColor, $outlineColor) {
+    background-color: $bgColor;
+    border-color: $borderColor;
+    --onColor: #{$onColor};
+    outline-color: $outlineColor;
+
+    &::placeholder {
+        color: $placeholderColor;
+    }
+}

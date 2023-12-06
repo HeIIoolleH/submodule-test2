@@ -1,0 +1,28 @@
+@import "../../../styles/mixin.Text";
+@import "../../../foundation/typography.scss";
+@import "../../../styles/mixin.Input";
+
+.Input_Fill_12_16_Outlined_Radius60 {
+    @include input-style(100%, 12px 16px, 6px, 1px solid, none, 0px, none);
+    @include text-style($Pretendard_18R_font-size, $Pretendard_18R_line-height, $Pretendard_18R_letter-spacing, $Pretendard_18R_font-weight, none, none);
+
+    &:hover {
+        @include input-style(100%, 12px 16px, 6px, 1px solid, none, 0px, none);
+    }
+
+    &:active {
+        @include input-style(100%, 12px 16px, 6px, 1.5px solid, none, 0px, none);
+    }
+
+    &:focus {
+        @include input-style(100%, 12px 16px, 6px, 1.5px solid, none, 0px, none);
+    }
+
+    &.valid {
+        @include input-style(100%, 12px 16px, 6px, 1.5px solid, none, 0px, none);
+    }
+
+    &.invalid {
+        @include input-style(100%, 12px 16px, 6px, 1.5px solid, none, 0px, none);
+    }
+}
