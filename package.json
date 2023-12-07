@@ -8,7 +8,7 @@
     "devDependencies": {
         "@types/react": "^18.2.41"
     },
-    "name": "eqbr-component-library",
+    "name": "eqbr-component-library2",
     "version": "1.0.0",
     "main": ".svgrrc.js",
     "scripts": {
