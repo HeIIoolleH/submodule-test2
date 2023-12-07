@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "react": "^18.2.0",
+        "react": "^17.0.2",
         "sass": "^1.69.5",
         "sweetalert2": "^10.0.0",
         "web3": "^4.3.0"
@@ -8,7 +8,7 @@
     "devDependencies": {
         "@types/react": "^18.2.41"
     },
-    "name": "eqbr-component-library2",
+    "name": "eqbr-component-library",
     "version": "1.0.0",
     "main": ".svgrrc.js",
     "scripts": {
